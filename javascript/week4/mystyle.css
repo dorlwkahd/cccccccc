@@ -5,6 +5,11 @@ header {
     background-color: olive;
     color: white;
 }
+
+header h1 a {
+    color: white;
+    text-decoration: none;
+}
 nav {
     padding: 5px;
     background-color: cadetblue;
@@ -26,17 +31,21 @@ nav ul li a:hover {
     color: black;
 }
 aside div{
-    background-color: bisque;
-    width: 35%;
+    background-color: rgb(248, 212, 168);
+    width: 34%;
     float: right;
     text-align: center;
 
+}
+aside form {
+    text-align: center;
 }
 
 section {
     background-color: rgb(224, 233, 253);
     width: 65%;
     float: left;
+    padding: 0.5%;
 }
 section h2 {
     text-align: center;
